@@ -1,0 +1,37 @@
+<snippet>
+	<content><![CDATA[
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        try{
+            final BufferedReader rdr = new BufferedReader(new InputStreamReader(System.in));
+            int testCases = Integer.parseInt(rdr.readLine());
+            while(true){
+                if(testCases == 0 ){
+                    break; 
+                }
+        		${1:code here ...}
+                testCases--; 
+          }
+        }
+        catch (Exception e){
+            System.out.println(e);
+        }
+        finally{
+            
+        }
+        
+    }
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>Solution</tabTrigger> 
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
